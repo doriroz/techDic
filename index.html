@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Alef" rel="stylesheet">    
+	<link rel="stylesheet" type="text/css" href="CSS/TechDicFrmt.css">
+	
+	<title>DicDevTech</title>
+	
+	<script type="text/javascript" src="/TechDicFunc.js">
+		
+	</script>
+    </head>
+		
+	<!--body background="C:\Users\Dori\Desktop\globalTechnology.jpg"-->	
+	<body id="container"> 
+		
+		
+		<!--div class="txt-align-nav topnav"-->
+        <header class="hdr"> 
+            <h3>טכנולוגיות בקטנה</h3>
+            
+        
+        <ul class="catsrch">
+            
+            
+            <li><a href="#"><i class="fas fa-binoculars" title="חיפוש קטלוגי"></i></a>
+            
+                <ul>
+                    <li class="traingle"></li>
+                    <li class="lstItemHdr lstItemCmp"><a href="file:///C:/Users/Dori/Desktop/techDic/TecDicABCLtr.html">By Letters</a></li>
+                    <li class="lstItemCmp"><a href="file:///C:/Users/Dori/Desktop/techDic/TechDicByComp.html">By Company</a></li>
+                </ul>
+            </li>
+            
+            <li><a href="#"><i class="fas fa-plus" title="הוספת ערך"></i></a></li>
+        </ul>
+        
+                
+                 
+        
+        
+		</header>
+		
+        
+        
+		<!-- flow button of scroll to the top -->
+		
+		<button onclick="topFunction()" id="topBtn">
+		<i class="fas fa-angle-up"></i>
+		</button>
+		
+		<script type="text/javascript">
+		window.onscroll = function(){scrlFunction()};
+		
+		function scrlFunction(){
+		if(document.body.scrollTop > 20 || document.documentElement.scrollTop > 20)
+		{
+			document.getElementById("topBtn").style.display = "block";
+		}
+		else
+		{
+			document.getElementById("topBtn").style.display = "none";
+		}
+		}
+		
+		function topFunction(){
+			document.body.scrollTop = 0;
+			document.documentElement.scrollTop = 0;
+		}
+		
+		
+		</script>
+		
+		<!--p class="bigLtr">A</p-->
+		<!--
+        <p class="bigLtr">A
+		<button class="shwAll1" id="shwAll" onclick="shwAllFunc('shd-arrw')">הצג הכל 
+		</button>
+		</p>
+        -->
+        
+		<div class="bigLtr">A
+		</div>
+        
+        <div>
+        <button class="shwAll1" id="shwAll" onclick="shwAllFunc('shd-arrw')">הצג הכל 
+		</button>
+		</div>
+        
+		<p dir="rtl" class="txt-alignHdr" onclick="shdMyElem('shd-text','shd-arrw')">
+		API – ממשק מונחה עצמים &nbsp &nbsp
+		<a id="shd-arrw" href="#">
+		<i class="fas fa-angle-down"></i></a>
+		</p>
+		
+		
+		
+		<p dir="rtl" id="shd-text" class="txt-align3">		
+		ערכה של ספריות קוד, פקודות ופונקציות מוכנות בהן יכול המתכנת לעשות שימוש פשוט בלי להידרש לכתוב אותן בעצמו
+		ממשקי תכנות יישומים מוצעים ע"י סביבות הפיתוח , מפתחים עצמאיים , צוותי פיתוח חברות שונות 
+		בעלות מוצרי תוכנה כמו חברות המפתחות מערכות הפעלה כדי לקצר את זמן בפיתוח ע"י שימוש בממשק תואם סביבה וגם כדי למנוע שינויים שאינם הולמים. 
+		<button onclick="copyDef('shd-text')" title="copy text"><i class="fas fa-copy"></i></button>
+		<a href="https://youtu.be/s7wmiS2mSXY" title="youTube"><i class="fab fa-youtube"></i></a>&nbsp
+		<a href="https://he.wikipedia.org/wiki/%D7%9E%D7%9E%D7%A9%D7%A7_%D7%AA%D7%9B%D7%A0%D7%95%D7%AA_%D7%99%D7%99%D7%A9%D7%95%D7%9E%D7%99%D7%9D" title="wikipedia"><i class="fab fa-wikipedia-w"></i></a>
+		</p>
+		
+		<p dir="rtl" class="txt-align1" onclick="shdMyElem('shd-text1','shd-arrw1')">
+		AJAX &nbsp &nbsp 
+		<a id="shd-arrw1" href="#">
+		<i class="fas fa-angle-down"></i></a>
+		</p>
+		
+        <p dir="rtl" id="shd-text1" class="txt-align3">
+		קיצור של Asynchronous JS and XML . זוהי למעשה טכניקה ליצירת יישומים אינטרקטיביים לדפי אינטרנט שהמיוחד בהם הוא שהם מאפשרים עדכון חלקי של הדפים ללא טעינת הדף כולו.
+		טכניקת Ajax פועלת ע"י הרצת קוד JS בצד הלקוח ששולח פקודות לביצוע בצד השרת . כאשר מסיים השרת לט
+		פל בקריאות אלו הוא מחזיר תגובה  אסינכרונית ללקוח ואז מתעדכן האובייקט הרלוונטי בדף.
+		<button onclick="copyDef('shd-text1')" title="copy text"><i class="fas fa-copy"></i></button>
+		</p>
+		
+		<p dir="rtl" class="txt-align1" onclick="shdMyElem('context3','shd-arrw2')">
+		AWS &nbsp &nbsp
+		<a id="shd-arrw2" href="#">
+		<i class="fas fa-angle-down"></i></a>
+		</p>
+		<p dir="rtl" id="context3" class="txt-align3">
+		קיצור של AMAZON WEB SERVICE . יחידה עסקית של חברת אמאזון העוסקת באספקת שירותי מחשוב ענן ליחידים, לחברות ולגופים ממשלתיים ונחשבת לבעלת שירותים מתקדמים בתחום.
+		<button onclick="copyDef('context3')" title="copy text"><i class="fas fa-copy"></i></button>
+		</p>
+		
+		
+		<p dir="rtl" class="txt-align1" onclick="shdMyElem('shd-text2','shd-arrw3')">
+		ANGULAR &nbsp &nbsp
+		<a id="shd-arrw3" href="#">
+		<i class="fas fa-angle-down"></i></a>
+		</p>
+		<p dir="rtl" id="shd-text2" class="txt-align3">
+		פרוייקט שהתחיל בגוגל, תפס פופלאריות מאוד גדולה והיום עושים בו שימוש  כמעט בכל מקום. 
+		הפרוייקט מהווה תשתית תוכנה בקוד פתוח ליישומי רשת ומיועדת לפיתרון אתגרים בפיתוח יישומי דף יחיד.
+        
+        <button calss="techCpy" onclick="copyDef('shd-text2')" title="copy text"><i class="fas fa-copy"></i></button>
+		<a href="https://he.wikipedia.org/wiki/AngularJS" title="wikipedia"><i class="fab fa-wikipedia-w techCpy"></i></a>
+        </tr></table>
+		</p>
+		
+        <table>
+        <tr>
+            
+		<td><button calss="techCpy" title="copy text">W</button></td>
+		<td><a href="https://he.wikipedia.org/wiki/AngularJS" title="wikipedia"><i class="fab fa-wikipedia-w techCpy"></i></a></td>
+        </tr></table>
+		
+    
+        <!--ContinueStart-->
+		<div id="continue">
+		<p dir="rtl" class="txt-align1" onclick="shdMyElem('shd-text3','shd-arrw4')">
+		APACHE
+		<a id="shd-arrw4" href="#">
+		<i class="fas fa-angle-down"></i></a>
+		</p>
+		
+        </div>
+        <!--ContinueEnd-->
+        <form dir="rtl" class="chkbox">
+        <input type="checkbox" name="more" onchange="chkboxOpn()">....</input>
+        </form>
+        <br>
+                                                                    
+        <div id="pagination">
+            <a id = "A" class = "active" href="#" onclick="remAddClass('A')">A</a>
+            <a id = "B" href="file:///C:/Users/Dori/Desktop/techDic/TechDicB.html" onclick="remAddClass('B')">B</a>
+            <a id = "C" href="file:///C:/Users/Dori/Desktop/techDic/TechDicC.html" onclick="remAddClass('C')">C</a>
+            <a href="file:///C:/Users/Dori/Desktop/techDic/TechDicD.html" tabindex="-1">&raquo </a>
+        </div>
+		<!--nav aria-label="pageing alphbatic"-->
+		<!--ul class="pagination">
+			<li><a id = "A" class = "active" href="#" onclick="remAddClass('A')">A</a></li>
+			<li><a id = "B" href="file:///C:/Users/Dori/Desktop/techDic/TechDicB.html" onclick="remAddClass('B')">B</a></li>
+			<li><a id = "C" href="file:///C:/Users/Dori/Desktop/techDic/TechDicC.html" onclick="remAddClass('C')">C</a></li>
+			<li><a class="paginationLR" href="file:///C:/Users/Dori/Desktop/techDic/TechDicD.html" tabindex="-1">&raquo </a></li>
+		</ul-->
+        <!--/nav-->
+		<!--/div-->
+        <br>
+       
+        <footer>Created by Dori Rozen</footer>
+    </body>
+</html>
